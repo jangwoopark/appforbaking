@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_to_widget"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/add_to_widget"
+        app:showAsAction="always" />
+</menu>
